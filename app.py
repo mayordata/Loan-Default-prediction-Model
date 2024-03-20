@@ -9,7 +9,7 @@ from sklearn.preprocessing import MinMaxScaler, LabelEncoder
 
 # Load the model
 
-model = load_model('loanmodel4.keras')
+model = load_model('loanmodel5.h5')
 
 # model = joblib.load('loanmodel3.joblib')
 
