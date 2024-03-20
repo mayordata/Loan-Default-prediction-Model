@@ -2,14 +2,14 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 #import joblib
-import keras
+from tensorflow.keras.models import load_model
 from sklearn.preprocessing import MinMaxScaler, LabelEncoder
 
 
 
 # Load the model
 
-model = keras.models.load_model("loanmodel4.keras")
+model = load_model('loanmodel4.keras')
 
 # model = joblib.load('loanmodel3.joblib')
 
